@@ -1,10 +1,13 @@
 package org.example;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Player p1 = new Player('X');
-        System.out.println("Player 1 marker: " + p1.getMarker());
+      Player p1 = new Player('X');
+System.out.println("Player 1 marker: " + p1.getMarker());
+
+Board board = new Board();
+board.place(0, 0, 'X');
+board.print();
     }
 }
+
