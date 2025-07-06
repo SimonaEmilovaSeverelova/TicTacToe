@@ -20,6 +20,7 @@ Digitale Umsetzung des Spiels Tic-Tac-Toe im Rahmen der Software-Lifecycle-Übun
 5. Pull Request gestellt, geprüft & gemerged
 6. User Story auf "Done" gesetzt
 
+--> Screenshot Kanban Board 
 
 # GitHub-Prozess
 
