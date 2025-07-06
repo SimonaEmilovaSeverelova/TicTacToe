@@ -30,6 +30,8 @@ Digitale Umsetzung des Spiels Tic-Tac-Toe im Rahmen der Software-Lifecycle-Übun
 - `feature/US3-fake-pr`
 - `feature/US4-game-logic`
 
+--> Screenshot Branches
+
 # Pull Requests
 Jede User Story wurde per Pull Request in `main` gemerged (siehe (https://github.com/SimonaEmilovaSeverelova/TicTacToe/pulls?q=is%3Apr+)).
 
