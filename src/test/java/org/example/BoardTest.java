@@ -4,6 +4,9 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 
+// User Story 3 – Unit-Tests für Board implementiert
+// Dokumentationseintrag für Pull Request US3
+
 public class BoardTest {
     private Board board;
 

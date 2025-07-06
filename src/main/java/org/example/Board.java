@@ -3,6 +3,7 @@ package org.example;
 public class Board {
     private char[][] cells;
     private double[][] board;
+    private Object main;
 
     public Board() {
         cells = new char[3][3];
@@ -49,8 +50,11 @@ public class Board {
         }
         return true;
     }
+<<<<<<< HEAD
     public boolean isCellEmpty(int row, int col) {
         return board[row][col] == ' ';
+
+>>>>>>> origin/main
     }
 
 }
