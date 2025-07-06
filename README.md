@@ -27,7 +27,7 @@ Digitale Umsetzung des Spiels Tic-Tac-Toe im Rahmen der Software-Lifecycle-Übun
 # Feature Branches
 - `feature/US1-player-move`
 - `feature/US2-board`
-- `feature/US3-board-test`
+- `feature/US3-fake-pr`
 - `feature/US4-game-logic`
 
 # Pull Requests
