@@ -48,4 +48,9 @@ public class Board {
         }
         return true;
     }
+
+    public boolean isCellEmpty(int x, int y) {
+        return cells[x][y] == ' ';
+    }
+
 }
