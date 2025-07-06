@@ -34,7 +34,12 @@ Digitale Umsetzung des Spiels Tic-Tac-Toe im Rahmen der Software-Lifecycle-Übun
 Jede User Story wurde per Pull Request in `main` gemerged (siehe (https://github.com/SimonaEmilovaSeverelova/TicTacToe/pulls?q=is%3Apr+)).
 
 # Tests
-- Board-Methoden (`place`, `clear`, `isFull`) haben Unit-Tests
+# Einheitstests für die `Board`-Klasse:
+- `place()`: Position setzen  
+- `clear()`: Spiel zurücksetzen  
+- `isFull()`: Board voll prüfen
+  Screenshot place()  print() aus der Board-Klasse testen:
+  
 - Positiv- & Negativfälle vorhanden (siehe `BoardTest.java`)
 
 # Projekt ausführen
@@ -43,4 +48,6 @@ Jede User Story wurde per Pull Request in `main` gemerged (siehe (https://github
 # Projekt ist ein Maven-Projekt
 mvn compile
 mvn exec:java -Dexec.mainClass="org.example.Main"
+
+--> Screenshot Spiel starten
 
