@@ -40,7 +40,8 @@ Jede User Story wurde per Pull Request in `main` gemerged (siehe (https://github
 - `place()`: Position setzen  
 - `clear()`: Spiel zurücksetzen  
 - `isFull()`: Board voll prüfen
-  Screenshot place()  print() aus der Board-Klasse testen:
+  
+-->Screenshot place()  print() aus der Board-Klasse testen:
   
 - Positiv- & Negativfälle vorhanden (siehe `BoardTest.java`)
 
