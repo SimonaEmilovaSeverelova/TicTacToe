@@ -2,6 +2,7 @@ package org.example;
 
 public class Board {
     private char[][] cells;
+    private double[][] board;
 
     public Board() {
         cells = new char[3][3];
@@ -48,4 +49,8 @@ public class Board {
         }
         return true;
     }
+    public boolean isCellEmpty(int row, int col) {
+        return board[row][col] == ' ';
+    }
+
 }
