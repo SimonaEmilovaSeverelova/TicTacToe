@@ -20,7 +20,6 @@ Digitale Umsetzung des Spiels Tic-Tac-Toe im Rahmen der Software-Lifecycle-Übun
 5. Pull Request gestellt, geprüft & gemerged
 6. User Story auf "Done" gesetzt
 
---> Screenshot Kanban Board 
 
 # GitHub-Prozess
 
@@ -30,7 +29,6 @@ Digitale Umsetzung des Spiels Tic-Tac-Toe im Rahmen der Software-Lifecycle-Übun
 - `feature/US3-fake-pr`
 - `feature/US4-game-logic`
 
---> Screenshot Branches
 
 # Pull Requests
 Jede User Story wurde per Pull Request in `main` gemerged (siehe (https://github.com/SimonaEmilovaSeverelova/TicTacToe/pulls?q=is%3Apr+)).
@@ -41,7 +39,6 @@ Jede User Story wurde per Pull Request in `main` gemerged (siehe (https://github
 - `clear()`: Spiel zurücksetzen  
 - `isFull()`: Board voll prüfen
   
--->Screenshot place()  print() aus der Board-Klasse testen:
   
 - Positiv- & Negativfälle vorhanden (siehe `BoardTest.java`)
 
@@ -52,5 +49,5 @@ Jede User Story wurde per Pull Request in `main` gemerged (siehe (https://github
 mvn compile
 mvn exec:java -Dexec.mainClass="org.example.Main"
 
---> Screenshot Spiel starten
+
 
